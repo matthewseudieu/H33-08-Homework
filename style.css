@@ -1,4 +1,58 @@
+
+body { 
+    background-image:url('images/hw1-background-image.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
 h1 {
-    color:#FFFF00;
+    margin-bottom:5px;
+}
+h2 {
+    margin-top:0px;
+}
+img {
+    width:fit-content;
+    height:150px;
+    background-size:cover;
+    border: 5px solid white;
+    border-radius:15px;
+}
+
+.heading {
+
+    display:flex;
+    flex-direction:column;
+    vertical-align:middle;
+
+    width:100%;
+    height:100px;
+    background-color:#000000af;
     text-align:center;
+    
+    margin-bottom:20px;
+    padding-bottom:10px;
+    border-bottom:10px solid white;
+
+    color:white;
+}
+
+.content {
+    display:flex;
+    flex-direction:row;
+}
+
+.sub-topic {
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    width:25%;
+    background-color:#000000af;
+    color:white;
+
+    padding:15px;
+    margin:10px;
+    border-radius:10px;
 }
