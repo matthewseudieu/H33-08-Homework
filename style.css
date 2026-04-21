@@ -17,7 +17,16 @@ h3 {
 }
 p {
     color:#e2e2e2;
-    line-height:2;
+    line-height:1.3;
+}
+a {
+    font-weight:bold;
+    color:#8ba3f1;
+    transition:0.35s;
+}
+
+a:hover {
+    color:#f1e78b;
 }
 
 #about {color:#f1928b;}
@@ -51,6 +60,30 @@ img {
     color:white;
 }
 
+.footer {
+
+    width:80%;
+    margin:auto;
+
+    background-color:#0000007a;
+    text-align:center;
+    
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:20px;
+
+    color:white; 
+}
+
+.footer > img {
+    height:100px;
+    display:block;
+    margin:auto;
+    margin-bottom:15px;
+}
+
 .content {
     display:flex;
     flex-direction:row;
@@ -66,7 +99,7 @@ img {
     background-color:#000000af;
     color:white;
 
-    padding:35px;
+    padding:25px;
     margin:10px;
     border-radius:10px;
 }
